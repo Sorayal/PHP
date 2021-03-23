@@ -1,0 +1,1 @@
+This folder contains a simple PHP form and a list for hotel reservations. It´s an early project which I created during my vocational training. The comments are in German, also the variable names.

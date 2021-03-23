@@ -1,0 +1,80 @@
+*{
+	box-sizing:border-box;	
+}
+.wrapper{
+	width: 600px;
+	border: dotted 2px;
+	margin:0 auto;
+	background-color:#ccc;
+	font-family: Cambria, sans-serif;
+}
+legend
+{
+	font-size:1.5em;
+}
+
+label{
+	display:inline-block; 
+	width:109px;
+}
+label[for="herr"],label[for="frau"],label[for="firma"]{
+	display:inline-block; 
+	width:43px;
+}
+label[for="fruehstueck"],label[for="halbpension"],label[for="vollpension"]{
+	display:inline-block; 
+	width:90px;
+}
+input[type=text]{
+	margin-bottom:3px;
+	width: 200px;
+}
+
+input[type=radio]{
+	margin-left:2px;
+}
+input[type=submit]{			
+	margin-left:265px;
+}
+.fehler{
+	color: #f00;
+}
+
+h1
+{
+	width:300px;
+	margin: 0 auto;
+	text-align:center;
+}
+p.text
+{
+	width:300px;
+	margin: 0 auto;
+	text-align:center;
+}
+p.title
+{
+	width:300px;
+	margin: 20px auto 0 auto;
+	text-align:center;
+}
+#formular
+{
+	width :200px;
+	margin: 20px auto 0 auto;
+	border-radius: 25px;
+	text-align: center; 
+	display: inline-block;
+	background-color: #f44336;
+	color: #000;
+	text-decoration: none;
+}
+#submit
+{
+	border-radius: 25px;
+	background-color: #F5F5DC;
+}
+#submit:hover, #gesamtansicht:active
+{
+	background-color: #90EE90;
+}
